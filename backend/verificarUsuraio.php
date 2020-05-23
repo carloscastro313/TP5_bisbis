@@ -8,10 +8,8 @@ if($ar!=null)
 {
     while(!feof($ar))
     {
-        $listado = fgets($ar);
+        $listado = trim(fgets($ar));
         $archivo = explode(" - ",$listado);
-        $archivo[1] = trim($archivo[1]);
-        $archivo[2] = trim($archivo[2]);
         if($archivo[2] == $dni && $archivo[1] == $apellido)
         {
             $flag = true;

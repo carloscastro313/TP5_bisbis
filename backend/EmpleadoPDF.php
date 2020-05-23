@@ -1,4 +1,6 @@
 <?php
+    session_start();
+    $dni = $_SESSION["DNIEmpleado"] ;
     require_once '../vendor/autoload.php';
     require_once("../Clases/Fabrica.php");
     use Mpdf\Mpdf;
@@ -59,4 +61,7 @@
     $mpdf->WriteHTML("<h3>Listado de productos</h3>");
     $mpdf->WriteHTML("<br>");
     $mpdf->WriteHTML($lista);
+
+    
+    $mpdf->SetProtection(array(), 'UserPassword', $dni);
     $mpdf->Output();
