@@ -1,0 +1,9 @@
+Ya - Castro - 2342343 - M - 102 - 8000 - Tarde - ./fotos/2342343-Castro.jpg
+
+Carlos - Castro - 42313959 - M - 100 - 8000 - Tarde - ./fotos/42313959-Castro.png
+
+Maria - Montenegro - 23284094 - F - 101 - 10000 - Tarde - ./fotos/23284094-Montenegro.png
+
+Ya - N - 12345678 - F - 103 - 8000 - Tarde - ./fotos/12345678-N.jpg
+
+Lucia - Montenegro - 1000000 - F - 104 - 8000 - Noche - ./fotos/1000000-Montenegro.jpg
