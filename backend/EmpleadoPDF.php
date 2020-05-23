@@ -12,7 +12,7 @@
 
 
     $mpdf->SetHeader('{DATE j-m-Y}|Carlos Castro|{PAGENO}{nbpg}');
-    $mpdf->setFooter('{DATE Y}|TP5 BIS BIS|{PAGENO}');
+    $mpdf->setFooter('{DATE Y}|https://tp5bisbis.herokuapp.com/index.php|{PAGENO}');
     $lista = '<table class="table" border="1" align="center">
                 <thead>
                     <tr>
